@@ -36,7 +36,7 @@ function Addjob({ fetchJobs, editJob, closeModal }) {
     try {
       if (editJob) {
         // ✏ EDIT MODE
-        await fetch(`https://careerflow-9mqb.onrender.com/${editJob.id}`, {
+        await fetch(`https://careerflow-9mqb.onrender.com/jobs/${editJob.id}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
