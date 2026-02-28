@@ -24,7 +24,7 @@ function DashboardPage() {
 
     const fetchJobs = async () => {
       const res = await fetch(
-        `http://localhost:5004/jobs?userId=${storedUser.id}`
+        `http://careerflow-9mqb.onrender.com/jobs?userId=${storedUser.id}`
       )
       const data = await res.json()
       setJobs(data)

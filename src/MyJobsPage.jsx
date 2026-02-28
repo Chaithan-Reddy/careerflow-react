@@ -29,14 +29,14 @@ function MyJobsPage() {
     if (!user) return
 
     const res = await fetch(
-      `http://localhost:5004/jobs?userId=${user.id}`
+      `http://careerflow-9mqb.onrender.com/jobs?userId=${user.id}`
     )
     const data = await res.json()
     setJobs(data)
   }
 
   const handleDelete = async (id) => {
-    await fetch(`http://localhost:5004/jobs/${id}`, {
+    await fetch(`http://careerflow-9mqb.onrender.com/jobs/${id}`, {
       method: "DELETE"
     })
     fetchJobs()
