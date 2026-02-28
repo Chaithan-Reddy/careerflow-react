@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "8d97",
+      "username": "chaithan",
+      "email": "chaithan@gmail.com",
+      "password": "1234chaithan"
+    },
+    {
+      "id": "46aa",
+      "username": "chaitra",
+      "email": "chaitra@gmail.com",
+      "password": "1234chaitra"
+    },
+    {
+      "id": "704e",
+      "username": "uday",
+      "email": "uday@gmail.com",
+      "password": "1234uday"
+    },
+    {
+      "id": "f31e",
+      "username": "chyavan",
+      "email": "chyavan@gmail.com",
+      "password": "1234chyavan"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "7bf9",
+      "company": "NTAR",
+      "role": "Frontend",
+      "status": "Rejected",
+      "date": "2/26/2026, 9:51:02 PM",
+      "userId": "8d97"
+    },
+    {
+      "id": "81df",
+      "company": "microsoft",
+      "role": "software",
+      "status": "Applied",
+      "date": "2/26/2026, 10:39:33 PM",
+      "userId": "8d97"
+    },
+    {
+      "id": "1cf4",
+      "company": "google",
+      "role": "frontend",
+      "status": "Applied",
+      "interview": "No",
+      "date": "2/27/2026, 3:28:47 PM",
+      "userId": "8d97"
+    },
+    {
+      "id": "c0c9",
+      "company": "microsoft",
+      "role": "backend",
+      "status": "Interview",
+      "interview": "Yes",
+      "date": "2/27/2026, 3:29:29 PM",
+      "userId": "8d97"
+    },
+    {
+      "id": "d399",
+      "company": "accenture",
+      "role": "software",
+      "status": "Applied",
+      "interview": "No",
+      "date": "2/28/2026, 12:30:34 AM",
+      "userId": "46aa"
+    },
+    {
+      "id": "ee70",
+      "company": "accenture",
+      "role": "software",
+      "status": "Applied",
+      "interview": "No",
+      "date": "2/28/2026, 3:17:21 AM",
+      "userId": "8d97"
+    },
+    {
+      "id": "2072",
+      "company": "infosys",
+      "role": "python developer",
+      "status": "Applied",
+      "interview": "No",
+      "date": "2/28/2026, 5:30:44 AM",
+      "userId": "704e"
+    },
+    {
+      "id": "1209",
+      "company": "Infosys",
+      "role": "software",
+      "status": "Applied",
+      "interview": "No",
+      "date": "2/28/2026, 5:32:49 AM",
+      "userId": "8d97"
+    },
+    {
+      "id": "dada",
+      "company": "IBM",
+      "role": "sql developer",
+      "status": "Rejected",
+      "interview": "Yes",
+      "date": "2/28/2026, 5:33:31 AM",
+      "userId": "8d97"
+    },
+    {
+      "id": "4cfe",
+      "company": "Cognizant",
+      "role": "full stack devloper",
+      "status": "Offer",
+      "interview": "Yes",
+      "date": "2/28/2026, 5:40:10 AM",
+      "userId": "8d97"
+    }
+  ]
+}
