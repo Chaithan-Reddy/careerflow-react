@@ -48,7 +48,7 @@ function Addjob({ fetchJobs, editJob, closeModal }) {
         })
       } else {
         // ➕ ADD MODE
-        await fetch("https://localhost:5004/jobs", {
+        await fetch("https://careerflow-9mqb.onrender.com/jobs", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
