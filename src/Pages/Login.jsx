@@ -11,7 +11,7 @@ function Login() {
 
     try {
       const res = await fetch(
-        `http://careerflow-9mqb.onrender.com/users?email=${email}`
+        `https://careerflow-9mqb.onrender.com/users?email=${email}`
       )
 
       const data = await res.json()

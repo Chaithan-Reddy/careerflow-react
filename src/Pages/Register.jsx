@@ -10,10 +10,10 @@ const handleSubmit = async(e) => {
   try {
     e.preventDefault()
     let userDetails = {username, email, password}
-    let res = await fetch(`http://careerflow-9mqb.onrender.com/users?email=${email}`)
+    let res = await fetch(`https://careerflow-9mqb.onrender.com/users?email=${email}`)
     let jsonRes = await res.json()
     if(jsonRes.length === 0){
-      let postRes = await fetch("http://careerflow-9mqb.onrender.com/users",{
+      let postRes = await fetch("https://careerflow-9mqb.onrender.com/users",{
         method:'POST',
         headers:{
           'Content-Type':'application/json'

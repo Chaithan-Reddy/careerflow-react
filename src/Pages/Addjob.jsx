@@ -36,7 +36,7 @@ function Addjob({ fetchJobs, editJob, closeModal }) {
     try {
       if (editJob) {
         // ✏ EDIT MODE
-        await fetch(`http://localhost:5004/jobs/${editJob.id}`, {
+        await fetch(`https://localhost:5004/jobs/${editJob.id}`, {
           method: "PATCH",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -48,7 +48,7 @@ function Addjob({ fetchJobs, editJob, closeModal }) {
         })
       } else {
         // ➕ ADD MODE
-        await fetch("http://localhost:5004/jobs", {
+        await fetch("https://localhost:5004/jobs", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
